@@ -1,0 +1,12 @@
+@{
+	'date' = 'get-date';
+	'build' = '.\.\build';
+	'local'='.\scripts\create\local\create-local';
+	'local-xc'='.\scripts\create\local\xc\install\install-xc0';
+	'paas'='.\scripts\create\paas\create-paas';
+	#test commands that require set-location:
+	#'local-xc'='Set-Location scripts\create\local\xc\install;. .\install-xc0';
+	'remove-db'='.\scripts\create\local\remove-db';
+	'remove-iis'='.\scripts\create\local\remove-iis';
+	'install-solr'='.\scripts\create\local\XP\install\Solr\install-solr';
+}
